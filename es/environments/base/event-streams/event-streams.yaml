@@ -5,7 +5,7 @@ metadata:
 spec:
   security:
     internalTls: NONE
-  version: 11.0.2
+  version: 11.0.4
   license:
     # By installing this product you accept the license terms at https://ibm.biz/es-license
     accept: true
