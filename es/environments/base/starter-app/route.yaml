@@ -5,8 +5,6 @@ metadata:
   # annotations:
   #   argocd.argoproj.io/sync-options: Validate=false
 spec:
-  host: ""
-  path: /
   port:
     targetPort: 8080
   to:

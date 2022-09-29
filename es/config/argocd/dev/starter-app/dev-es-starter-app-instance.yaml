@@ -7,12 +7,12 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  ignoreDifferences:
-  - group: route.openshift.io/v1
-    kind: route
-    name: es-starter-app
-    jsonPointers:
-    - /spec/host
+  # ignoreDifferences:
+  # - group: route.openshift.io/v1
+  #   kind: route
+  #   name: es-starter-app
+  #   jsonPointers:
+  #   - /spec/host
   destination:
     namespace: dev
     server: https://kubernetes.default.svc
